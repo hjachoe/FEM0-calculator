@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: absolute;
+    left: 20vw;
+    right: 20vw;
+    top: 5vh;
+    height: auto;
+    background-color: black;
+}
+
+.output {
+    display: flex;
+    height: 85px;
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: monospace;
+    font-size: 48px;
+}
+
+.quarter {
+    width: 24.5%;
+}
+
+.half {
+    width: 49.7%;
+}
+
+.tQuarter {
+    width: 74.8%;
+}
+
+button {
+    font-size: 35px;
+    padding: 0;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+.operator {
+    background-color: #df974c;
+    color: white;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 2px 0;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-bottom: 2px;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-bottom: 2px;
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-bottom: 2px;
+}
+
+.row5 {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
